@@ -1,0 +1,24 @@
+:root{
+    background-color: grey;
+    color: whitesmoke;
+    padding: 5px 15px;
+    text-align: center;
+    margin-top: 3px;
+    outline: none;
+}
+
+.to-list, input[type = "submit"]{
+    border-radius: 2px;
+    background: peachpuff;
+}
+
+.to-list:hover, input[type = "submit"]:hover{
+    cursor = pointer;
+    background: bisque;
+    box-shadow: 2px 2px 5px teal;
+}
+
+.list-names button{
+    background: rgb(158, 8, 8);
+    color: white;
+}
